@@ -1,0 +1,667 @@
+body {
+  margin: 0;
+  font-family: "Krub", sans-serif;
+  min-width: 400px;
+}
+
+main {
+  background-color: rgb(249, 226, 180);
+}
+
+.page-scale-wrapper {
+  max-width: 2000px;
+  height: 100%;
+  margin: auto;
+}
+
+.production-wrapper-background {
+  background-color: rgb(249, 226, 180);
+}
+
+.footer-background {
+  background-color: rgb(249, 226, 180);
+}
+
+header {
+  height: 100px;
+  display: grid;
+  grid-template-columns: 4fr 4fr 4fr;
+  justify-items: center;
+  align-items: center;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  border-bottom: 1px solid black;
+}
+
+.logo-wrapper {
+  justify-self: left;
+}
+
+.burger-button-wrapper {
+  cursor: pointer;
+  display: none;
+}
+
+.links-wrapper {
+  display: flex;
+  gap: 3rem;
+  list-style: none;
+}
+
+.shopping-cart {
+  justify-self: right;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.title-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-top: 4rem;
+}
+
+.about-us-wrapper {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 5rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-top: 5rem;
+}
+
+.about-us-link {
+  font-size: 1.2rem;
+  color: black;
+}
+
+.production-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5rem;
+  align-items: center;
+  padding-top: 12rem;
+  padding-left: 12rem;
+  padding-right: 12rem;
+  padding-bottom: 7rem;
+  max-width: 1400px;
+  height: 100%;
+  margin: auto;
+}
+
+.production-price-wrapper {
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.dog-image-wrapper {
+  height: 800px;
+  justify-self: left;
+}
+
+.production-image-wrapper {
+  height: 500px;
+  justify-self: right;
+  position: relative;
+}
+
+.quick-view-wrapper {
+  background-color: white;
+  color: white;
+  height: 40px;
+  width: 120px;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  left: 50%;
+  bottom: 10px;
+  transform: translate(-50%);
+  transition: 0.5s;
+}
+
+.quick-view-wrapper:hover {
+  background-color: black;
+  color: white;
+}
+
+.other-production-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  gap: 3rem;
+  background-color: rgb(226, 211, 245);
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+  text-align: center;
+  height: 100%;
+}
+
+.feedback-wrapper {
+  background-image: url(./images/feedback-logo.jpg);
+}
+
+.feedback-content-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 5rem;
+  padding-bottom: 7rem;
+}
+
+.feedback-title {
+  font-size: 5rem;
+  text-align: center;
+}
+
+.feedback-name {
+  font-size: 1rem;
+  padding-bottom: 1rem;
+  text-align: center;
+}
+
+.feedback {
+  font-size: 1.7rem;
+  max-width: 65%;
+  text-align: center;
+}
+
+.arrows-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 140px;
+  padding-top: 3rem;
+}
+
+.arrow-right-wrapper {
+  height: 60px;
+  width: 60px;
+  background-color: rgba(0, 0, 0, 0.562);
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.5s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  order: 2;
+}
+
+.arrow-left-wrapper {
+  height: 60px;
+  width: 60px;
+  background-color: rgba(0, 0, 0, 0.562);
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.5s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  order: 1;
+}
+
+.social-links-wrapper {
+  background-color: rgb(249, 226, 180);
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-bottom: 5rem;
+}
+
+.social-links {
+  padding-top: 3rem;
+  padding-bottom: 5rem;
+}
+
+.follow-us {
+  font-size: 4rem;
+  text-align: center;
+  padding-bottom: 1.5rem;
+  letter-spacing: 2px;
+}
+
+span {
+  border-bottom: 1px solid black;
+  cursor: pointer;
+}
+
+.featured-moto {
+  font-size: 1rem;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.featured-logo-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 1rem;
+}
+
+footer {
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-bottom: 5rem;
+  display: grid;
+  grid-template-columns: 4fr 4fr 4fr;
+  align-items: center;
+  max-width: 2000px;
+  height: 100%;
+  margin: auto;
+}
+
+.find-us-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.social-svg-wrapper {
+  display: flex;
+  gap: 1rem;
+}
+
+.title {
+  font-size: 1.8rem;
+}
+
+.made-with {
+  font-size: 0.8rem;
+}
+
+.contact-gift-wrapper {
+  padding-left: 3rem;
+}
+
+.subscription-wrapper {
+  justify-self: left;
+}
+
+/*!!above the main ones wrappers!!*/
+
+.links-wrapper a {
+  text-decoration: none;
+  color: black;
+  list-style: none;
+  font-size: 1.2rem;
+}
+
+.logo-wrapper a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.6rem;
+}
+
+.burger-button-wrapper svg {
+  height: 32px;
+  width: 32px;
+}
+
+.shopping-cart a svg {
+  height: 22px;
+  width: 22px;
+}
+.shopping-cart a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.2rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+.title-wrapper h1 {
+  font-size: 7rem;
+  line-height: 1.4em;
+  padding-bottom: 1rem;
+  text-align: center;
+  font-weight: 600;
+}
+
+.title-image {
+  width: 100%;
+  height: 800px;
+  object-fit: cover;
+  border-radius: 3rem;
+}
+
+.about-us-wrapper h2 {
+  font-size: 4.5rem;
+  letter-spacing: 5px;
+  max-width: 70%;
+}
+
+.about-us-wrapper p {
+  margin: 0;
+  font-size: 1.2rem;
+  text-align: justify;
+  line-height: 1.6rem;
+  padding-bottom: 1rem;
+}
+
+.dog-image-wrapper img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.production-image-wrapper img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.production-price-wrapper h5 {
+  font-size: 1.2rem;
+  cursor: pointer;
+  letter-spacing: 1px;
+}
+
+.production-price-wrapper h6 {
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+.other-production-wrapper img {
+  height: 500px;
+  width: 100%;
+  object-fit: cover;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.other-production-wrapper img:hover {
+  transform: translateY(-10%);
+  border-radius: 15px;
+}
+
+.other-production-wrapper h3 {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.other-production-wrapper button {
+  all: unset;
+  padding: 0.8rem;
+  border: 2px solid black;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.other-production-wrapper button:hover {
+  background-color: black;
+  color: white;
+}
+
+.other-production-wrapper h4 {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  font-weight: normal;
+}
+
+.feedback-content-wrapper p {
+  margin: 0;
+}
+
+.feedback-content-wrapper img {
+  cursor: pointer;
+  transition: 0.5s;
+}
+.feedback-content-wrapper img:hover {
+  transform: scale(1.2);
+}
+
+.arrow-right-left svg {
+  height: 35px;
+  width: 35px;
+}
+
+.arrow-right-wrapper:hover {
+  background-color: black;
+}
+.arrow-left-wrapper:hover {
+  background-color: black;
+}
+
+.social-links-wrapper p {
+  margin: 0;
+}
+
+.featured-logo-wrapper img {
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 2rem;
+}
+
+.find-us-wrapper p {
+  margin: 0;
+}
+
+.social-svg-wrapper svg {
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+}
+
+.contact-gift-wrapper ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-gift-wrapper ul li a {
+  color: black;
+}
+
+.subscription-wrapper p {
+  margin: 0;
+  padding-bottom: 2rem;
+  font-size: 1rem;
+  letter-spacing: 2px;
+}
+
+.sign-up-wrapper input {
+  height: 60px;
+  width: 250px;
+  outline: none;
+  border: none;
+}
+
+.sign-up-wrapper input:focus {
+  border: 1px solid black;
+}
+
+.sign-up-wrapper button {
+  all: unset;
+  height: 60px;
+  width: 120px;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.sign-up-wrapper button:hover {
+  background-color: black;
+  color: white;
+}
+
+/*!!below the media screen wrappers!!*/
+
+@media screen and (max-width: 799px) {
+  header {
+    height: 150px;
+  }
+  header nav {
+    display: none;
+  }
+  .logo-wrapper {
+    order: 2;
+    justify-self: center;
+  }
+  .burger-button-wrapper {
+    display: inline-block;
+    order: 1;
+    justify-self: left;
+  }
+  .shopping-cart {
+    order: 3;
+  }
+  .title-wrapper {
+    padding-top: 2rem;
+  }
+  .title-wrapper h1 {
+    font-size: 4rem;
+  }
+  .title-image {
+    height: 400px;
+  }
+  .about-us-wrapper {
+    grid-template-columns: 1fr 1fr;
+    gap: 12rem;
+    padding-top: 3rem;
+  }
+  .about-us-wrapper h2 {
+    font-size: 2.5em;
+    letter-spacing: 2px;
+  }
+  .about-us-wrapper p {
+    line-height: 1.4rem;
+  }
+  .other-production-wrapper {
+    grid-template-columns: 1fr 1fr;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  .other-production-third {
+    display: none;
+  }
+  .other-production-wrapper img {
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+  }
+
+  .feedback-title {
+    font-size: 3rem;
+  }
+
+  .feedback-content-wrapper img {
+    height: 100px;
+    width: 100px;
+  }
+
+  .feedback {
+    font-size: 1rem;
+    width: 300px;
+  }
+  .follow-us {
+    font-size: 2.5rem;
+  }
+  .featured-logo-wrapper img {
+    height: 200px;
+  }
+  .social-links {
+    padding-bottom: 2rem;
+  }
+
+  .social-links-wrapper {
+    padding-bottom: 3rem;
+  }
+
+  .sign-up-wrapper input {
+    margin-bottom: 3rem;
+  }
+  footer {
+    align-items: normal;
+  }
+  .contact-gift-wrapper {
+    padding-top: 4rem;
+  }
+  .subscription-wrapper {
+    padding-top: 2rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .title-image {
+    height: 250px;
+  }
+  .title-wrapper h1 {
+    padding-bottom: 5rem;
+  }
+  .about-us-wrapper {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  .production-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    padding-top: 7rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 7rem;
+  }
+  .dog-image-wrapper {
+    height: 400px;
+    width: 400px;
+  }
+  .production-image-wrapper {
+    height: 500px;
+    width: 400px;
+  }
+  .other-production-wrapper {
+    grid-template-columns: 1fr;
+  }
+  .other-production-third {
+    display: inline-block;
+  }
+  .featured-logo-wrapper {
+    grid-template-columns: 1fr 1fr;
+  }
+  .featured-logo-wrapper img {
+    height: 150px;
+  }
+
+  .feedback-content-wrapper {
+    padding-bottom: 3rem;
+  }
+
+  .social-links {
+    padding-bottom: 4rem;
+  }
+
+  .social-links-wrapper {
+    padding-bottom: 5rem;
+  }
+  footer {
+    grid-template-columns: 1fr;
+  }
+  .find-us-wrapper {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 2rem;
+  }
+
+  .contact-gift-wrapper {
+    padding: 0;
+    align-items: center;
+  }
+
+  .subscription-wrapper {
+    padding: 0;
+  }
+}
